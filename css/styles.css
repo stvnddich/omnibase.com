@@ -1,0 +1,58 @@
+body {
+  background-color: #FCFCFC !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.navbar-style,
+.custom-margin {
+  margin-bottom: 30px;
+}
+
+.footer {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+img {
+  opacity: 0.75;
+  filter: alpha(opacity=50);
+}
+
+img:hover{
+  opacity: 1.0;
+}
+
+.bd-lead {
+  font-size:1.45rem !important;
+  font-weight:300;
+  margin-left: 0.75rem;
+}
+
+  .lft-mrg {
+    margin-left: 0.85rem;
+  }
+
+@media (min-width: 576px) {
+  .change-size {
+    font-size: 150%;
+  }
+}
+
+
+@media (min-width:576px) {
+  .bd-lead {
+    max-width:80%;
+    margin-bottom:1rem;
+    font-size:1.5rem }
+  }
